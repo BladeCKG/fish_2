@@ -512,29 +512,25 @@ const Home: NextPage = () => {
                                           className="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu elementor-button-wrapper"
                                         >
                                           <CustomConnect
-                                                normalComp={
-                                                  <div
-                                                    className="elementor-button elementor-button-link elementor-size-sm elementor-animation-float"
-                                                  >
-                                                    <span className="elementor-button-content-wrapper">
-                                                      <span className="elementor-button-text">
-                                                        Claim $ONNO{" "}
-                                                      </span>
-                                                    </span>
-                                                  </div>
-                                                }
-                                                clickComp={
-                                                  <div
-                                                    className="elementor-button elementor-button-link elementor-size-sm elementor-animation-float"
-                                                  >
-                                                    <span className="elementor-button-content-wrapper">
-                                                      <span className="elementor-button-text">
-                                                        Processing...{" "}
-                                                      </span>
-                                                    </span>
-                                                  </div>
-                                                }
-                                              ></CustomConnect>
+                                            normalComp={
+                                              <div className="elementor-button elementor-button-link elementor-size-sm elementor-animation-float">
+                                                <span className="elementor-button-content-wrapper">
+                                                  <span className="elementor-button-text">
+                                                    Claim $ONNO
+                                                  </span>
+                                                </span>
+                                              </div>
+                                            }
+                                            clickComp={
+                                              <div className="elementor-button elementor-button-link elementor-size-sm elementor-animation-float">
+                                                <span className="elementor-button-content-wrapper">
+                                                  <span className="elementor-button-text">
+                                                    Processing...
+                                                  </span>
+                                                </span>
+                                              </div>
+                                            }
+                                          ></CustomConnect>
                                         </li>
                                       </ul>
                                     </nav>
@@ -667,12 +663,9 @@ const Home: NextPage = () => {
                                         >
                                           <div className="elementor-widget-container">
                                             <div className="elementor-button-wrapper">
-                                              
-                                          <CustomConnect
+                                              <CustomConnect
                                                 normalComp={
-                                                  <div
-                                                    className="elementor-button elementor-button-link elementor-size-sm elementor-animation-float"
-                                                  >
+                                                  <div className="elementor-button elementor-button-link elementor-size-sm elementor-animation-float">
                                                     <span className="elementor-button-content-wrapper">
                                                       <span className="elementor-button-text">
                                                         Claim $ONNO
@@ -681,9 +674,7 @@ const Home: NextPage = () => {
                                                   </div>
                                                 }
                                                 clickComp={
-                                                  <div
-                                                    className="elementor-button elementor-button-link elementor-size-sm elementor-animation-float"
-                                                  >
+                                                  <div className="elementor-button elementor-button-link elementor-size-sm elementor-animation-float">
                                                     <span className="elementor-button-content-wrapper">
                                                       <span className="elementor-button-text">
                                                         Processing...
